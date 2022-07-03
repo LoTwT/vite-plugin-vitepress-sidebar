@@ -1,8 +1,14 @@
 import { defineConfig } from "vitepress"
+import VitepressSidebar from "vite-plugin-vitepress-sidebar"
 
 export default defineConfig({
   title: "VitePluginVitepressSidebar",
   lastUpdated: true,
+
+  vite: {
+    plugins: [VitepressSidebar()],
+  },
+
   themeConfig: {
     socialLinks: [
       {

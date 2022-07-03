@@ -28,9 +28,11 @@ importers:
 
   docs:
     specifiers:
+      vite-plugin-vitepress-sidebar: workspace:^0.0.0
       vitepress: 1.0.0-alpha.4
       vue: ^3.2.37
     devDependencies:
+      vite-plugin-vitepress-sidebar: link:..
       vitepress: 1.0.0-alpha.4
       vue: 3.2.37
 
