@@ -32,11 +32,13 @@ export default defineConfig({
           collapsible: true,
           items: [
             {
-              text: "Getting Started",
+              // text: "Getting Started",
+              text: "",
               link: "/guide/getting-started",
             },
             {
-              text: "Configuration",
+              // text: "Configuration",
+              text: "",
               link: "/guide/configuration",
             },
           ],
@@ -48,7 +50,8 @@ export default defineConfig({
           collapsible: true,
           items: [
             {
-              text: "Introduction",
+              // text: "Introduction",
+              text: "",
               link: "/config/introduction",
             },
           ],
