@@ -11,4 +11,5 @@ export default defineBuildConfig({
   alias: {
     "@": fileURLToPath(new URL("./src", import.meta.url)),
   },
+  externals: ["vite"],
 })
